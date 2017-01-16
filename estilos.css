@@ -23,7 +23,7 @@ header h1 {
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 8px;
 	color: #ffffff;
-	left: 50%;
+	left: 40%;
 	padding: 20px;
 	position: absolute;
 	top: 50%;
@@ -60,4 +60,23 @@ footer {
 
 footer address:last-child {
 	margin-bottom: 0px;
+}
+
+@media(min-width: 768px) {
+	#paineis-sobre {
+		margin-top: 0px;
+	}
+}
+
+@media(min-width: 992px) {
+	.topCasaFina-banner {
+		left: 0px;
+		transform: translate(0, -80%);
+		width: 50%;
+	}
+
+	.topCasaFina-bannerWrapper {
+		height: 100%;
+		position: relative;
+	}
 }
